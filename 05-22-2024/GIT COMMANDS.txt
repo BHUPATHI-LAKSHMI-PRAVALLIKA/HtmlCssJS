@@ -1,0 +1,20 @@
+1. INITIALIZE GIT:
+----> Command: "git init"
+The git init command is used to create a new Git repository. When you run git init in a directory, it initializes a new, empty Git repository, 
+setting up the necessary metadata to track project history and changes.
+
+2. ADDS ORIGIN:
+----> Command: "git remote add origin <remote-repository-URL>"
+
+3. 
+----> Command: "git add ."
+
+4.
+----> Command: "git commit -m <comments>"
+
+5.
+----> Command: "git push -u origin main"
+
+6.
+----> Command: ""
+

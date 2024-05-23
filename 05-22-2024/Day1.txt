@@ -1,0 +1,11 @@
+Extensions:
+-->Prettier : Code formatter using prettier
+-->Thunder Client : Lightweight Rest API Client for VS Code (Instead of postman we can use this)
+-->Live Server : Launch a development local Server with live reload feature for static & dynamic pages.
+
+IMPORTANT:
+-->vanilla js runs in Browser/client.
+-->node js run time environment for js on server.
+
+HTML:
+-->
