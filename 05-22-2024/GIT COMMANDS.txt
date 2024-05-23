@@ -1,3 +1,5 @@
+PUSHING THE CODE
+
 1. INITIALIZE GIT:
 ----> Command: "git init"
 The git init command is used to create a new Git repository. When you run git init in a directory, it initializes a new, empty Git repository, 
@@ -13,8 +15,13 @@ setting up the necessary metadata to track project history and changes.
 ----> Command: "git commit -m <comments>"
 
 5.
-----> Command: "git push -u origin main"
+----> Command: "git branch -m main"
 
 6.
-----> Command: ""
+----> Command: "git push -u origin <main/master/branch name>"
+
+PULLING THE CODE
+
+7.
+----> Command: "git pull origin <remote-repository-URL>"
 
