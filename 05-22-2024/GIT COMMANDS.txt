@@ -2,26 +2,39 @@ PUSHING THE CODE
 
 1. INITIALIZE GIT:
 ----> Command: "git init"
-The git init command is used to create a new Git repository. When you run git init in a directory, it initializes a new, empty Git repository, 
+The git init command is used to create a new Git repository. When you run git init in a directory,
+it initializes a new, empty Git repository, 
 setting up the necessary metadata to track project history and changes.
 
 2. ADDS ORIGIN:
 ----> Command: "git remote add origin <remote-repository-URL>"
+This command sets up a connection between the local repository and the specified remote repository, 
+allowing for push and pull operations to sync changes.
 
-3. 
+3. STAGING:
 ----> Command: "git add ."
+It is used to add all changes in the current directory and 
+stages all modified, newly created, and deleted files in the current directory and its subdirectories,
+preparing them to be included in the next commit.
 
-4.
+4. COMMIT MESSAGE:
 ----> Command: "git commit -m <comments>"
+It is used to create a new commit with a descriptive message in Git.
+captures a snapshot of the staged changes and includes a message explaining what changes were made and why.
+This message helps keep track of the project history. 
 
-5.
+5. CHANGING BRANCH NAME:
 ----> Command: "git branch -m main"
+The command git branch -m main is used to rename the current branch to main in Git. 
 
-6.
+
+6. PUSH INTO GIT:
 ----> Command: "git push -u origin <main/master/branch name>"
+It is used to push changes from a local branch to a remote repository and set the upstream branch.
 
-PULLING THE CODE
+----------------------------------------------------------------------------------
 
-7.
+7. PULLING THE CODE:
 ----> Command: "git pull origin <remote-repository-URL>"
+It is used to fetch changes from a remote repository and merge them into the current local branch.
 
